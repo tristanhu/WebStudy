@@ -55,17 +55,17 @@
 </head>
 <body>
 	<h2>用户登录</h2>
-	<form name="form1" action="login_process.jsp" method="post"
+	<form name="form1" action="login" method="post"
 		onsubmit="return isValidate(form1)">
 		用户名：<input type="text" name="username" value="zhangsan" /> <br />
 		口令：<input type="password" name="userpass" value="wangwu" /> <br /> <input
 			type="reset" value="重置" /> <input type="submit" value="提交" />
 	</form>
 
-	<form name="form2" action="login_process.jsp" method="post"
+	<form name="form2" action="login" method="post"
 		onsubmit="return isValidate(form2)">
-		用户名：<input type="text" name="username" value="wangwu" /> <br />
-		口令：<input type="password" name="userpass" value="zhangsan" /> <br /> <input
+		用户名：<input type="text" name="username" value="wangwu" /> <br /> 口令：<input
+			type="password" name="userpass" value="zhangsan" /> <br /> <input
 			type="reset" value="重置" /> <input type="submit" value="提交" />
 	</form>
 </body>
