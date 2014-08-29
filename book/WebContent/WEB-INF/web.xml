@@ -12,4 +12,14 @@
 		<servlet-name>login</servlet-name>
 		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>findAllUser</servlet-name>
+		<servlet-class>servlets.FindAllUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>findAllUser</servlet-name>
+		<url-pattern>/findAllUser</url-pattern>
+	</servlet-mapping>
 </web-app>

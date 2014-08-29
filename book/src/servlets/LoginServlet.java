@@ -21,7 +21,7 @@ public class LoginServlet extends HttpServlet {
 		// 创建模型对象
 		UserBean user = new UserBean();
 		// 调用业务方法进行验证
-		boolean b = user.validate(userid, userpass);
+		boolean b = true;//user.validate(userid, userpass);
 		// 要转向的文件
 		String forward;
 		// 如果登录成功，就把用户名写入session中，并且转向success.jsp，
