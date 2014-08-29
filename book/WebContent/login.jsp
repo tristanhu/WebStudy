@@ -64,8 +64,8 @@
 
 	<form name="form2" action="login_process.jsp" method="post"
 		onsubmit="return isValidate(form2)">
-		用户名：<input type="text" name="username" value="zhangsan2" /> <br />
-		口令：<input type="password" name="userpass" value="wangwu2" /> <br /> <input
+		用户名：<input type="text" name="username" value="wangwu" /> <br />
+		口令：<input type="password" name="userpass" value="zhangsan" /> <br /> <input
 			type="reset" value="重置" /> <input type="submit" value="提交" />
 	</form>
 </body>
